@@ -1,0 +1,31 @@
+# Ignore files that start with a dot (e.g., .git, .DS_Store)
+.DS_Store
+.vscode
+node_modules
+
+# Ignore specific file types
+*.log
+*.swp
+
+# Ignore build output
+build
+dist
+
+# Node.js specific
+node_modules
+npm-debug.log
+yarn-error.log
+.pnp.js
+
+# Appwrite specific (if applicable)
+appwrite.config.json
+appwrite.env
+.env
+
+# Build output
+build
+dist
+
+# Temporary files
+*.swp
+*~
